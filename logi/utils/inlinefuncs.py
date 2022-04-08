@@ -26,6 +26,7 @@ from logi import (
     DEV_USERS,
     EVENT_LOGS, 
     BOT_USERNAME,
+    START_IMG ,
     ubot2,
 )
 from logi import pbot as app 
@@ -102,7 +103,7 @@ async def inline_help_func(__HELP__):
             input_message_content=InputTextMessageContent(
                 "**__Click A Button To Get Started.__**"
             ),
-            thumb_url="https://te.legra.ph/file/e8595050c5c4ea14f34d9.jpg",
+            thumb_url=f"[❤]({ START_IMG})",
             reply_markup=buttons,
         ),
     ]
@@ -115,7 +116,7 @@ async def alive_function(answers):
     bot_state = "Dead" if not await app.get_me() else "Alive"
     ubot_state = "Dead" if not await ubot2.get_me() else "Alive"
     buttons.add(
-        InlineKeyboardButton("Main bot", url="https://t.me/logi_ro_bot"),
+        InlineKeyboardButton("Main bot", url=f"http://t.me/{BOT_USERNAME}"),
         InlineKeyboardButton(
             "Go Inline!", switch_inline_query_current_chat=""
         ),
@@ -129,13 +130,13 @@ async def alive_function(answers):
 **Pyrogram:** `{pyrover}`
 **MongoDB:** `{mongover}`
 **Platform:** `{sys.platform}`
-**Profiles:** [BOT](t.me/{BOT_USERNAME}) | [UBOT](t.me/logi_ro_bot)
+**Profiles:** [BOT](t.me/{BOT_USERNAME}) | [UBOT](t.me/Miss_lucy_robot)
 """
     answers.append(
         InlineQueryResultArticle(
             title="Alive",
             description="Check Bot's Stats",
-            thumb_url="https://te.legra.ph/file/e8595050c5c4ea14f34d9.jpg",
+            thumb_url=f"[❤]({ START_IMG})",
             input_message_content=InputTextMessageContent(
                 msg, disable_web_page_preview=True
             ),
