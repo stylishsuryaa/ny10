@@ -1,4 +1,4 @@
-<p align="center"><a href="https://t.me/VeezVideoBot"><img src="https://github.com/LOGI-TECH/LOGI-BOT/blob/master/logi/resources/logi.png"></a></p>
+<p align="center"><a href="https://t.me/Logi_channel"><img src="https://github.com/LOGI-TECH/LOGI-BOT/blob/master/logi/resources/logi.png"></a></p>
 <p align="center">
     <br><b>The Telegram group management and music & video Stream bot repo in Open-Source. Telegram Bot project that's allow you to Manage your group with extra features and  play Video & Music trough the Telegram Group Video Chat</b><br>
 </p>
