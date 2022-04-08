@@ -47,7 +47,7 @@ Step 2 :
 5. `ARQ_API_KEY ` : Get this from @ARQRobot.
 6. `MONGO_DB_URI` : MongoDB Database URL.
 7. `EVENT_LOGS` : Chat ID where bot will log everything. Use Group Chats Only.
-8. `HEROKU_API_KEY ` : Your Heroku API key, get it from 'https://dashboard.heroku.com/account'
+8. `HEROKU_API_KEY ` : Your Heroku API key, get it from [Your Heroku Account](https://dashboard.heroku.com/account)
 9. `DRAGONS` : Sudo Users for Bot. (For multiple users seperate IDs with space)
 10. `OWNER_ID`: Owner ID of Bot
 11. `SUPPORT_CHAT` : Support Group Link (Leave blank if you don't have one)
