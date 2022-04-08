@@ -7,10 +7,10 @@ from telethon import __version__ as tlhver
 from pyrogram import __version__ as pyrover
 from logi.events import register
 from logi import telethn as tbot
-from logi import BOT_USERNAME ,OWNER_USERNAME ,ALIVE_IMG ,SUPPORT_CHAT ,SUPPORT_CHANNEL
+from logi import BOT_USERNAME ,OWNER_USERNAME ,SUPPORT_CHAT ,SUPPORT_CHANNEL
 
 
-PHOTO = {ALIVE_IMG}
+PHOTO = "https://te.legra.ph/file/2fc8882813e32c8f90e08.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
