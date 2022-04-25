@@ -85,10 +85,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = f"[❤]({ START_IMG})""""
-*Hᴇʟʟᴏ {} !* 
+*Hᴇʟʟᴏ 🇳𝙀𝙔𝙈𝘼𝙍 🇯𝙍 乂 🇷𝙊𝘽𝙊𝙏 !* 
 ───────────────────────
 × *I'ᴍ  Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
-× *I'ᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ Fᴇᴀᴛᴜʀᴇꜱ!💕* 
+× *I'ᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ Fᴇᴀᴛᴜʀᴇꜱ!* 
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -112,11 +112,11 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="꧁۝༒𝑰𝒏𝒇𝒐꧂", callback_data="emiko_"),
-        InlineKeyboardButton(text="꧁۝༒𝑶𝒘𝒏𝒆𝒓",  url=f"http://t.me/{OWNER_USERNAME}"),
+        InlineKeyboardButton(text="꧁۝༒𝑶𝒘𝒏𝒆𝒓",  url=f"http://t.me/{Suryaakumar}"),
     ],
    [
-        InlineKeyboardButton(text="꧁۝༒𝑼𝒑𝒅𝒂𝒕𝒆𝒔꧂", url=f"http://t.me/{SUPPORT_CHANNEL}"),
-        InlineKeyboardButton(text="꧁۝༒𝑺𝒖𝒑𝒑𝒐𝒓𝒕꧂", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="꧁۝༒𝑼𝒑𝒅𝒂𝒕𝒆𝒔꧂", url=f"http://t.me/{mafiakings}"),
+        InlineKeyboardButton(text="꧁۝༒𝑺𝒖𝒑𝒑𝒐𝒓𝒕꧂", url=f"https://t.me/{Friendstamilchatting}"),
     ],
     [  
         InlineKeyboardButton(text="⚚𝑨𝒅𝒅 𝑴𝒆 𝑻𝒐 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑✔️", url=f"t.me/{bu}?startgroup=new"),
@@ -480,13 +480,13 @@ def emiko_about_callback(update, context):
                 [
                
                  [
-                    InlineKeyboardButton(text="💕ᴏᴡɴᴇʀ ᴏғ ʙᴏᴛ sᴏᴄɪᴇᴛʏ💕", url="t.me/cl_me_logesh"),
+                    InlineKeyboardButton(text="💫ᴏᴡɴᴇʀ ᴏғ ʙᴏᴛ sᴏᴄɪᴇᴛʏ💫", url="t.me/Suryaakumar"),
                  ],
                   [
-                    InlineKeyboardButton(text="💕ʙᴏᴛs ᴜᴘᴅᴀᴛᴇ💕", url="t.me/logi_channel"),
+                    InlineKeyboardButton(text="✨ʙᴏᴛs ᴜᴘᴅᴀᴛᴇ✨", url="t.me/mafiakings"),
                  ],
                   [
-                    InlineKeyboardButton(text="🎭ɢᴏ ʙᴀᴄᴋ", callback_data="emiko_"),
+                    InlineKeyboardButton(text="💥ɢᴏ ʙᴀᴄᴋ", callback_data="emiko_"),
                  ],
                 ]
             ),
