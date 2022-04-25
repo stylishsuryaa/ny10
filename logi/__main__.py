@@ -112,7 +112,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="꧁۝༒𝑰𝒏𝒇𝒐꧂", callback_data="emiko_"),
-        InlineKeyboardButton(text="꧁۝༒𝑶𝒘𝒏𝒆𝒓",  url=f"http://t.me/{Suryaakumar}"),
+        InlineKeyboardButton(text="꧁۝༒𝑶𝒘𝒏𝒆𝒓",  url=f"http://t.me/Suryaakumar"),
     ],
    [
         InlineKeyboardButton(text="꧁۝༒𝑼𝒑𝒅𝒂𝒕𝒆𝒔꧂", url=f"http://t.me/{mafiakings}"),
